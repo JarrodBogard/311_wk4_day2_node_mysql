@@ -12,4 +12,4 @@ router.put('/:id', usersController.updateUserById)
 
 router.delete('/:first_name', usersController.deleteUserByFirstName)
 
-module.exports = router
+module.exports = router 
